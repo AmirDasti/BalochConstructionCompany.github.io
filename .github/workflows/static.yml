@@ -38,7 +38,6 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-      - name: Configure GitHub Pages
-        
-        with:
-          enablement: 'gh-pages'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
