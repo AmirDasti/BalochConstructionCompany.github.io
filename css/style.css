@@ -2756,12 +2756,12 @@ img.testimonial-thumb {
 /* Image Fix (ONLY REQUIRED PART) */
 .team-img-wrapper {
   width: 100%;
-  height: 250px; /* Same height for all images */
+  height: 3050px; /* Same height for all images */
   overflow: hidden;
 }
 
 .team-img-wrapper img {
-  width: 100%;
+  width: 150%;
   height: 100%;
   object-fit: cover; /* Maintain ratio, crop nicely */
 }
